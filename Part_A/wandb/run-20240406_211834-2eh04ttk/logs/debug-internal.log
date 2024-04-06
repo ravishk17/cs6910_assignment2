@@ -1,0 +1,191 @@
+2024-04-06 21:18:34,204 INFO    StreamThr :24476 [internal.py:wandb_internal():86] W&B internal server running at pid: 24476, started at: 2024-04-06 21:18:34.203969
+2024-04-06 21:18:34,212 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: status
+2024-04-06 21:18:34,217 INFO    WriterThread:24476 [datastore.py:open_for_write():87] open: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\run-2eh04ttk.wandb
+2024-04-06 21:18:34,219 DEBUG   SenderThread:24476 [sender.py:send():379] send: header
+2024-04-06 21:18:34,262 DEBUG   SenderThread:24476 [sender.py:send():379] send: run
+2024-04-06 21:18:35,788 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: check_version
+2024-04-06 21:18:35,791 INFO    SenderThread:24476 [dir_watcher.py:__init__():211] watching files in: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files
+2024-04-06 21:18:35,797 INFO    SenderThread:24476 [sender.py:_start_run_threads():1124] run started: 2eh04ttk with start time 1712418514.198958
+2024-04-06 21:18:35,798 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: check_version
+2024-04-06 21:18:36,764 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: run_start
+2024-04-06 21:18:36,786 DEBUG   HandlerThread:24476 [system_info.py:__init__():26] System info init
+2024-04-06 21:18:36,786 DEBUG   HandlerThread:24476 [system_info.py:__init__():41] System info init done
+2024-04-06 21:18:36,786 INFO    HandlerThread:24476 [system_monitor.py:start():194] Starting system monitor
+2024-04-06 21:18:36,787 INFO    SystemMonitor:24476 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-06 21:18:36,787 INFO    HandlerThread:24476 [system_monitor.py:probe():214] Collecting system info
+2024-04-06 21:18:36,797 DEBUG   HandlerThread:24476 [system_info.py:probe():150] Probing system
+2024-04-06 21:18:36,804 INFO    SystemMonitor:24476 [interfaces.py:start():190] Started cpu monitoring
+2024-04-06 21:18:36,805 INFO    SystemMonitor:24476 [interfaces.py:start():190] Started disk monitoring
+2024-04-06 21:18:36,807 INFO    SystemMonitor:24476 [interfaces.py:start():190] Started gpu monitoring
+2024-04-06 21:18:36,820 DEBUG   HandlerThread:24476 [system_info.py:_probe_git():135] Probing git
+2024-04-06 21:18:36,820 INFO    SystemMonitor:24476 [interfaces.py:start():190] Started memory monitoring
+2024-04-06 21:18:36,843 INFO    SystemMonitor:24476 [interfaces.py:start():190] Started network monitoring
+2024-04-06 21:18:36,941 DEBUG   HandlerThread:24476 [system_info.py:_probe_git():143] Probing git done
+2024-04-06 21:18:36,941 DEBUG   HandlerThread:24476 [system_info.py:probe():198] Probing system done
+2024-04-06 21:18:36,942 DEBUG   HandlerThread:24476 [system_monitor.py:probe():223] {'os': 'Windows-11-10.0.22631-SP0', 'python': '3.12.0', 'heartbeatAt': '2024-04-06T15:48:36.797542', 'startedAt': '2024-04-06T15:48:34.171783', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Assignement 2/Part_A/Q4.ipynb', 'codePathLocal': None, 'root': 'M:/Practice/Semester-2/Deep Learning/Assignments/Assignement 2', 'git': {'remote': 'https://github.com/ravishk17/cs6910_assignment2.git', 'commit': 'f4629e7019067b4690cd8e70639b142eda09021e'}, 'email': 'ravish.kr28@gmail.com', 'host': 'Ravish', 'username': 'ravis', 'executable': 'C:\\Users\\ravis\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'cpu_count': 24, 'cpu_count_logical': 32, 'cpu_freq': {'current': 2200.0, 'min': 0.0, 'max': 2200.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 0.0, 'max': 2200.0}], 'disk': {'/': {'total': 107.59081649780273, 'used': 37.00730514526367}}, 'gpu': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4060 Laptop GPU', 'memory_total': 8585740288}], 'memory': {'total': 15.726432800292969}}
+2024-04-06 21:18:36,942 INFO    HandlerThread:24476 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-06 21:18:36,942 INFO    HandlerThread:24476 [system_monitor.py:probe():227] Publishing system info
+2024-04-06 21:18:36,952 INFO    HandlerThread:24476 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-06 21:18:36,952 DEBUG   SenderThread:24476 [sender.py:send():379] send: files
+2024-04-06 21:18:36,953 INFO    SenderThread:24476 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-06 21:18:37,255 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-06 21:18:37,256 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: python_packages
+2024-04-06 21:18:37,257 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-06 21:18:37,257 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: stop_status
+2024-04-06 21:18:37,261 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-06 21:18:37,820 INFO    Thread-45 :24476 [dir_watcher.py:_on_file_created():271] file/dir created: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\wandb-metadata.json
+2024-04-06 21:18:37,820 INFO    Thread-45 :24476 [dir_watcher.py:_on_file_created():271] file/dir created: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\requirements.txt
+2024-04-06 21:18:38,514 DEBUG   SenderThread:24476 [sender.py:send():379] send: telemetry
+2024-04-06 21:18:38,941 INFO    wandb-upload_0:24476 [upload_job.py:push():131] Uploaded file C:\Users\ravis\AppData\Local\Temp\tmppb_dk9o_wandb\oy21mtmy-wandb-metadata.json
+2024-04-06 21:18:39,520 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: status_report
+2024-04-06 21:18:44,557 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: status_report
+2024-04-06 21:18:44,567 DEBUG   SenderThread:24476 [sender.py:send():379] send: files
+2024-04-06 21:18:44,568 INFO    SenderThread:24476 [sender.py:_save_file():1390] saving file media\images\29_0_628d118649818048b5fa.png with policy now
+2024-04-06 21:18:44,832 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-06 21:18:44,833 DEBUG   SenderThread:24476 [sender.py:send():379] send: history
+2024-04-06 21:18:44,833 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: summary_record
+2024-04-06 21:18:44,835 INFO    SenderThread:24476 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-06 21:18:44,837 DEBUG   SenderThread:24476 [sender.py:send():379] send: telemetry
+2024-04-06 21:18:44,838 DEBUG   SenderThread:24476 [sender.py:send():379] send: exit
+2024-04-06 21:18:44,838 INFO    SenderThread:24476 [sender.py:send_exit():586] handling exit code: 0
+2024-04-06 21:18:44,838 INFO    SenderThread:24476 [sender.py:send_exit():588] handling runtime: 8
+2024-04-06 21:18:44,839 INFO    SenderThread:24476 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-06 21:18:44,839 INFO    SenderThread:24476 [sender.py:send_exit():594] send defer
+2024-04-06 21:18:44,840 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:44,840 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-06 21:18:44,841 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:44,841 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-06 21:18:44,841 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 1
+2024-04-06 21:18:44,842 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:44,842 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-06 21:18:44,842 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:44,842 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-06 21:18:44,842 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 2
+2024-04-06 21:18:44,843 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:44,843 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-06 21:18:44,843 INFO    HandlerThread:24476 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-06 21:18:44,843 DEBUG   SystemMonitor:24476 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-06 21:18:44,843 DEBUG   SystemMonitor:24476 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-06 21:18:44,843 DEBUG   SystemMonitor:24476 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-06 21:18:44,858 INFO    HandlerThread:24476 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-06 21:18:44,858 INFO    HandlerThread:24476 [interfaces.py:finish():202] Joined disk monitor
+2024-04-06 21:18:44,923 INFO    Thread-45 :24476 [dir_watcher.py:_on_file_created():271] file/dir created: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\media\images\29_0_628d118649818048b5fa.png
+2024-04-06 21:18:44,924 INFO    Thread-45 :24476 [dir_watcher.py:_on_file_created():271] file/dir created: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\wandb-summary.json
+2024-04-06 21:18:44,925 INFO    Thread-45 :24476 [dir_watcher.py:_on_file_created():271] file/dir created: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\media\images
+2024-04-06 21:18:44,925 INFO    Thread-45 :24476 [dir_watcher.py:_on_file_created():271] file/dir created: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\media
+2024-04-06 21:18:44,957 INFO    HandlerThread:24476 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-06 21:18:44,957 INFO    HandlerThread:24476 [interfaces.py:finish():202] Joined memory monitor
+2024-04-06 21:18:44,958 INFO    HandlerThread:24476 [interfaces.py:finish():202] Joined network monitor
+2024-04-06 21:18:44,959 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:44,959 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-06 21:18:44,959 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 3
+2024-04-06 21:18:44,959 DEBUG   SenderThread:24476 [sender.py:send():379] send: stats
+2024-04-06 21:18:44,960 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:44,961 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-06 21:18:44,961 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:44,961 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-06 21:18:44,961 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 4
+2024-04-06 21:18:44,962 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:44,962 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-06 21:18:44,962 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:44,963 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-06 21:18:44,963 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 5
+2024-04-06 21:18:44,963 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:44,963 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-06 21:18:44,964 DEBUG   SenderThread:24476 [sender.py:send():379] send: summary
+2024-04-06 21:18:44,965 INFO    SenderThread:24476 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-06 21:18:44,965 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:44,965 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-06 21:18:44,965 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 6
+2024-04-06 21:18:44,966 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:44,967 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-06 21:18:44,967 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:44,968 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-06 21:18:44,972 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: status_report
+2024-04-06 21:18:45,323 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 7
+2024-04-06 21:18:45,323 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:45,323 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-06 21:18:45,324 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:45,324 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-06 21:18:45,324 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 8
+2024-04-06 21:18:45,324 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:45,324 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-06 21:18:45,324 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:45,324 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-06 21:18:45,325 INFO    SenderThread:24476 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-06 21:18:45,326 INFO    SenderThread:24476 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-06 21:18:45,327 INFO    SenderThread:24476 [job_builder.py:_get_program_relpath():473] run is notebook based run
+2024-04-06 21:18:45,330 INFO    SenderThread:24476 [job_builder.py:build():431] adding wandb-job metadata file
+2024-04-06 21:18:45,346 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 9
+2024-04-06 21:18:45,346 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:45,346 DEBUG   SenderThread:24476 [sender.py:send():379] send: artifact
+2024-04-06 21:18:45,347 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-06 21:18:45,846 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-06 21:18:45,924 INFO    Thread-45 :24476 [dir_watcher.py:_on_file_modified():288] file/dir modified: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\wandb-summary.json
+2024-04-06 21:18:45,925 INFO    Thread-45 :24476 [dir_watcher.py:_on_file_modified():288] file/dir modified: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\config.yaml
+2024-04-06 21:18:47,555 INFO    wandb-upload_0:24476 [upload_job.py:push():131] Uploaded file C:\Users\ravis\AppData\Local\Temp\tmppb_dk9o_wandb\12tlrbqo-media/images/29_0_628d118649818048b5fa.png
+2024-04-06 21:18:48,017 INFO    SenderThread:24476 [sender.py:send_artifact():1468] sent artifact job-https___github.com_ravishk17_cs6910_assignment2.git_Assignement_2_Part_A_Q4.ipynb - {'id': 'QXJ0aWZhY3Q6Nzg1OTM2NzQ3', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1ODEzMDY5Mw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Nzg1OTM2NzQ3', 'versionIndex': 0}}}
+2024-04-06 21:18:48,017 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:48,018 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-06 21:18:48,018 INFO    SenderThread:24476 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-06 21:18:48,961 INFO    SenderThread:24476 [dir_watcher.py:finish():388] scan: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files
+2024-04-06 21:18:48,961 INFO    SenderThread:24476 [dir_watcher.py:finish():402] scan save: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\config.yaml config.yaml
+2024-04-06 21:18:48,961 INFO    SenderThread:24476 [dir_watcher.py:finish():402] scan save: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\requirements.txt requirements.txt
+2024-04-06 21:18:48,962 INFO    SenderThread:24476 [dir_watcher.py:finish():402] scan save: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\wandb-metadata.json wandb-metadata.json
+2024-04-06 21:18:48,963 INFO    SenderThread:24476 [dir_watcher.py:finish():402] scan save: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\wandb-summary.json wandb-summary.json
+2024-04-06 21:18:48,977 INFO    SenderThread:24476 [dir_watcher.py:finish():402] scan save: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\media\images\29_0_628d118649818048b5fa.png media/images/29_0_628d118649818048b5fa.png
+2024-04-06 21:18:48,977 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 10
+2024-04-06 21:18:48,978 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: poll_exit
+2024-04-06 21:18:48,979 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:48,979 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-06 21:18:48,990 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:48,990 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-06 21:18:48,990 INFO    SenderThread:24476 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-06 21:18:49,888 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-06 21:18:49,889 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: poll_exit
+2024-04-06 21:18:50,717 INFO    wandb-upload_0:24476 [upload_job.py:push():131] Uploaded file C:\Users\ravis\AppData\Local\Temp\tmppb_dk9o_wandb\i8teeskm-media/images/29_0_628d118649818048b5fa.png
+2024-04-06 21:18:50,901 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-06 21:18:50,902 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: poll_exit
+2024-04-06 21:18:51,165 INFO    wandb-upload_1:24476 [upload_job.py:push():131] Uploaded file M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\config.yaml
+2024-04-06 21:18:51,204 INFO    wandb-upload_2:24476 [upload_job.py:push():131] Uploaded file M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\requirements.txt
+2024-04-06 21:18:51,760 INFO    wandb-upload_3:24476 [upload_job.py:push():131] Uploaded file M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\files\wandb-summary.json
+2024-04-06 21:18:51,907 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-06 21:18:51,914 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: poll_exit
+2024-04-06 21:18:51,969 INFO    Thread-44 (_thread_body):24476 [sender.py:transition_state():614] send defer: 11
+2024-04-06 21:18:51,970 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:51,971 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-06 21:18:51,971 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:51,971 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-06 21:18:51,971 INFO    SenderThread:24476 [file_pusher.py:join():178] waiting for file pusher
+2024-04-06 21:18:51,972 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 12
+2024-04-06 21:18:51,972 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:51,972 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-06 21:18:51,973 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:51,973 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-06 21:18:51,973 INFO    SenderThread:24476 [file_stream.py:finish():614] file stream finish called
+2024-04-06 21:18:52,357 INFO    SenderThread:24476 [file_stream.py:finish():618] file stream finish is done
+2024-04-06 21:18:52,357 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 13
+2024-04-06 21:18:52,359 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:52,359 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-06 21:18:52,359 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:52,359 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-06 21:18:52,359 INFO    SenderThread:24476 [sender.py:transition_state():614] send defer: 14
+2024-04-06 21:18:52,359 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: defer
+2024-04-06 21:18:52,359 INFO    HandlerThread:24476 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-06 21:18:52,359 DEBUG   SenderThread:24476 [sender.py:send():379] send: final
+2024-04-06 21:18:52,359 DEBUG   SenderThread:24476 [sender.py:send():379] send: footer
+2024-04-06 21:18:52,360 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: defer
+2024-04-06 21:18:52,360 INFO    SenderThread:24476 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-06 21:18:52,361 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-06 21:18:52,361 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: poll_exit
+2024-04-06 21:18:52,362 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-06 21:18:52,363 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: server_info
+2024-04-06 21:18:52,363 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-06 21:18:52,363 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-06 21:18:52,363 DEBUG   SenderThread:24476 [sender.py:send_request():406] send_request: server_info
+2024-04-06 21:18:52,726 DEBUG   HandlerThread:24476 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-06 21:18:52,726 INFO    HandlerThread:24476 [handler.py:finish():866] shutting down handler
+2024-04-06 21:18:53,379 INFO    WriterThread:24476 [datastore.py:close():296] close: M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_211834-2eh04ttk\run-2eh04ttk.wandb
+2024-04-06 21:18:53,738 INFO    SenderThread:24476 [sender.py:finish():1546] shutting down sender
+2024-04-06 21:18:53,738 INFO    SenderThread:24476 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-06 21:18:53,738 INFO    SenderThread:24476 [file_pusher.py:join():178] waiting for file pusher
