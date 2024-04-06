@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_30464\3305349487.py", line 4, in spawn_fn
+    train(config)
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_30464\2736842383.py", line 13, in train
+    model = Model(args.number_initial_filters ,args.neurons_in_dense_layer,image_shape,args.dropout, args.activation, args.batch_norm, args.size_filters, args.filter_organization).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1152, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 802, in _apply
+    module._apply(fn)
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 802, in _apply
+    module._apply(fn)
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 802, in _apply
+    module._apply(fn)
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 825, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1150, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 MiB. GPU 0 has a total capacity of 8.00 GiB of which 6.90 GiB is free. Of the allocated memory 16.25 MiB is allocated by PyTorch, and 3.75 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

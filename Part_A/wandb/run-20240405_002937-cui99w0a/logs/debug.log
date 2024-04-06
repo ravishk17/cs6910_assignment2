@@ -1,0 +1,41 @@
+2024-04-05 00:29:37,977 INFO    Thread-14 (_run_job):8952 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-05 00:29:37,977 INFO    Thread-14 (_run_job):8952 [wandb_setup.py:_flush():76] Configure stats pid to 8952
+2024-04-05 00:29:37,977 INFO    Thread-14 (_run_job):8952 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ravis\.config\wandb\settings
+2024-04-05 00:29:37,977 INFO    Thread-14 (_run_job):8952 [wandb_setup.py:_flush():76] Loading settings from M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\settings
+2024-04-05 00:29:37,977 INFO    Thread-14 (_run_job):8952 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'cs23m055', 'project': 'Assigment2_kaggle', 'root_dir': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A', 'sweep_id': 'xfz7ji9l', 'run_id': 'cui99w0a', 'sweep_param_path': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A\\wandb\\sweep-xfz7ji9l\\config-cui99w0a.yaml'}
+2024-04-05 00:29:37,978 INFO    Thread-14 (_run_job):8952 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-05 00:29:37,978 INFO    Thread-14 (_run_job):8952 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-05 00:29:37,978 INFO    Thread-14 (_run_job):8952 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-05 00:29:37,979 INFO    Thread-14 (_run_job):8952 [wandb_init.py:_log_setup():521] Logging user logs to M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240405_002937-cui99w0a\logs\debug.log
+2024-04-05 00:29:37,979 INFO    Thread-14 (_run_job):8952 [wandb_init.py:_log_setup():522] Logging internal logs to M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240405_002937-cui99w0a\logs\debug-internal.log
+2024-04-05 00:29:37,979 INFO    Thread-14 (_run_job):8952 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000019003D8CA70>
+2024-04-05 00:29:37,979 INFO    Thread-14 (_run_job):8952 [wandb_init.py:init():561] calling init triggers
+2024-04-05 00:29:37,979 INFO    Thread-14 (_run_job):8952 [wandb_init.py:init():568] wandb.init called with sweep_config: {'activation': 'gelu', 'batch_norm': True, 'batch_size': 128, 'data_aug': False, 'dropout': 0.3, 'epochs': 5, 'filter_organization': 2, 'learning_rate': 0.001, 'neurons_in_dense_layer': 1024, 'number_initial_filters': 32, 'size_filters': [11, 9, 7, 5, 3]}
+config: {}
+2024-04-05 00:29:37,979 INFO    Thread-14 (_run_job):8952 [wandb_init.py:init():611] starting backend
+2024-04-05 00:29:37,979 INFO    Thread-14 (_run_job):8952 [wandb_init.py:init():615] setting up manager
+2024-04-05 00:29:37,987 INFO    Thread-14 (_run_job):8952 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-05 00:29:38,015 INFO    Thread-14 (_run_job):8952 [wandb_init.py:init():623] backend started and connected
+2024-04-05 00:29:38,048 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_config_callback():1347] config_cb None None {'activation': 'gelu', 'batch_norm': True, 'batch_size': 128, 'data_aug': False, 'dropout': 0.3, 'epochs': 5, 'filter_organization': 2, 'learning_rate': 0.001, 'neurons_in_dense_layer': 1024, 'number_initial_filters': 32, 'size_filters': [11, 9, 7, 5, 3]}
+2024-04-05 00:29:38,050 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-05 00:29:38,051 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-05 00:29:38,052 INFO    Thread-14 (_run_job):8952 [wandb_init.py:init():715] updated telemetry
+2024-04-05 00:29:38,138 INFO    Thread-14 (_run_job):8952 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-05 00:29:39,105 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-05 00:29:39,574 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_on_init():2366] got version response 
+2024-04-05 00:29:39,574 INFO    Thread-14 (_run_job):8952 [wandb_init.py:init():799] starting run threads in backend
+2024-04-05 00:29:41,177 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-05 00:29:41,177 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-05 00:29:41,177 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-05 00:29:41,178 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-05 00:29:41,178 INFO    Thread-14 (_run_job):8952 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-05 00:29:43,886 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_finish():2064] finishing run cs23m055/Assigment2_kaggle/cui99w0a
+2024-04-05 00:29:43,886 INFO    Thread-14 (_run_job):8952 [jupyter.py:save_history():445] not saving jupyter history
+2024-04-05 00:29:43,886 INFO    Thread-14 (_run_job):8952 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-05 00:29:43,886 INFO    Thread-14 (_run_job):8952 [wandb_init.py:_jupyter_teardown():449] cleaning up jupyter logic
+2024-04-05 00:29:43,887 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 1
+2024-04-05 00:29:43,887 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_restore():2287] restore
+2024-04-05 00:29:43,887 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_restore():2293] restore done
+2024-04-05 00:29:50,543 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-05 00:29:50,543 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-05 00:29:50,573 INFO    Thread-14 (_run_job):8952 [wandb_run.py:_footer_sync_info():3895] logging synced files

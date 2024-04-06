@@ -1,0 +1,32 @@
+2024-04-06 04:43:35,294 INFO    Thread-12 (_run_job):26332 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-06 04:43:35,294 INFO    Thread-12 (_run_job):26332 [wandb_setup.py:_flush():76] Configure stats pid to 26332
+2024-04-06 04:43:35,295 INFO    Thread-12 (_run_job):26332 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ravis\.config\wandb\settings
+2024-04-06 04:43:35,295 INFO    Thread-12 (_run_job):26332 [wandb_setup.py:_flush():76] Loading settings from M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\settings
+2024-04-06 04:43:35,295 INFO    Thread-12 (_run_job):26332 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'cs23m055', 'project': 'Assigment2_local', 'root_dir': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A', 'sweep_id': 'a7a8gjx5', 'run_id': '3pfqjafl', 'sweep_param_path': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A\\wandb\\sweep-a7a8gjx5\\config-3pfqjafl.yaml'}
+2024-04-06 04:43:35,295 INFO    Thread-12 (_run_job):26332 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-06 04:43:35,295 INFO    Thread-12 (_run_job):26332 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-06 04:43:35,295 INFO    Thread-12 (_run_job):26332 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-06 04:43:35,295 INFO    Thread-12 (_run_job):26332 [wandb_init.py:_log_setup():521] Logging user logs to M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_044335-3pfqjafl\logs\debug.log
+2024-04-06 04:43:35,296 INFO    Thread-12 (_run_job):26332 [wandb_init.py:_log_setup():522] Logging internal logs to M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240406_044335-3pfqjafl\logs\debug-internal.log
+2024-04-06 04:43:35,296 INFO    Thread-12 (_run_job):26332 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000023F81E4EBD0>
+2024-04-06 04:43:35,297 INFO    Thread-12 (_run_job):26332 [wandb_init.py:init():561] calling init triggers
+2024-04-06 04:43:35,297 INFO    Thread-12 (_run_job):26332 [wandb_init.py:init():568] wandb.init called with sweep_config: {'activation': 'relu', 'batch_norm': True, 'batch_size': 32, 'data_aug': False, 'dropout': 0.1, 'epochs': 8, 'filter_organization': 1, 'learning_rate': 0.0001, 'neurons_in_dense_layer': 256, 'number_initial_filters': 64, 'size_filters': [11, 9, 7, 5, 3]}
+config: {}
+2024-04-06 04:43:35,297 INFO    Thread-12 (_run_job):26332 [wandb_init.py:init():611] starting backend
+2024-04-06 04:43:35,297 INFO    Thread-12 (_run_job):26332 [wandb_init.py:init():615] setting up manager
+2024-04-06 04:43:35,307 INFO    Thread-12 (_run_job):26332 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-06 04:43:35,313 INFO    Thread-12 (_run_job):26332 [wandb_init.py:init():623] backend started and connected
+2024-04-06 04:43:35,330 INFO    Thread-12 (_run_job):26332 [wandb_run.py:_config_callback():1347] config_cb None None {'activation': 'relu', 'batch_norm': True, 'batch_size': 32, 'data_aug': False, 'dropout': 0.1, 'epochs': 8, 'filter_organization': 1, 'learning_rate': 0.0001, 'neurons_in_dense_layer': 256, 'number_initial_filters': 64, 'size_filters': [11, 9, 7, 5, 3]}
+2024-04-06 04:43:35,332 INFO    Thread-12 (_run_job):26332 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-06 04:43:35,333 INFO    Thread-12 (_run_job):26332 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-06 04:43:35,333 INFO    Thread-12 (_run_job):26332 [wandb_init.py:init():715] updated telemetry
+2024-04-06 04:43:35,377 INFO    Thread-12 (_run_job):26332 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-06 04:43:36,517 INFO    Thread-12 (_run_job):26332 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-06 04:43:36,966 INFO    Thread-12 (_run_job):26332 [wandb_run.py:_on_init():2366] got version response 
+2024-04-06 04:43:36,966 INFO    Thread-12 (_run_job):26332 [wandb_init.py:init():799] starting run threads in backend
+2024-04-06 04:43:41,084 INFO    Thread-12 (_run_job):26332 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-06 04:43:41,084 INFO    Thread-12 (_run_job):26332 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-06 04:43:41,084 INFO    Thread-12 (_run_job):26332 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-06 04:43:41,084 INFO    Thread-12 (_run_job):26332 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-06 04:43:41,086 INFO    Thread-12 (_run_job):26332 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-06 04:56:44,177 WARNING MsgRouterThr:26332 [router.py:message_loop():77] message_loop has been closed

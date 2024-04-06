@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_12476\1739434078.py", line 4, in spawn_fn
+    train(config)
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_12476\2147705187.py", line 2, in train
+    torch.cuda.empty_cache()
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\cuda\memory.py", line 162, in empty_cache
+    torch._C._cuda_emptyCache()
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

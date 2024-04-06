@@ -1,0 +1,37 @@
+2024-04-05 02:41:01,571 INFO    Thread-20 (_run_job):2184 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-05 02:41:01,571 INFO    Thread-20 (_run_job):2184 [wandb_setup.py:_flush():76] Configure stats pid to 2184
+2024-04-05 02:41:01,571 INFO    Thread-20 (_run_job):2184 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ravis\.config\wandb\settings
+2024-04-05 02:41:01,571 INFO    Thread-20 (_run_job):2184 [wandb_setup.py:_flush():76] Loading settings from M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\settings
+2024-04-05 02:41:01,572 INFO    Thread-20 (_run_job):2184 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'cs23m055', 'project': 'Assigment2_local', 'root_dir': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A', 'run_id': 'wtm2qlo7', 'sweep_param_path': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A\\wandb\\sweep-aa6wj23g\\config-wtm2qlo7.yaml', 'sweep_id': 'aa6wj23g'}
+2024-04-05 02:41:01,581 INFO    Thread-20 (_run_job):2184 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-05 02:41:01,581 INFO    Thread-20 (_run_job):2184 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-05 02:41:01,581 INFO    Thread-20 (_run_job):2184 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-05 02:41:01,581 INFO    Thread-20 (_run_job):2184 [wandb_init.py:_log_setup():521] Logging user logs to M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240405_024101-wtm2qlo7\logs\debug.log
+2024-04-05 02:41:01,582 INFO    Thread-20 (_run_job):2184 [wandb_init.py:_log_setup():522] Logging internal logs to M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240405_024101-wtm2qlo7\logs\debug-internal.log
+2024-04-05 02:41:01,582 INFO    Thread-20 (_run_job):2184 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001D3D685F740>
+2024-04-05 02:41:01,582 INFO    Thread-20 (_run_job):2184 [wandb_init.py:init():561] calling init triggers
+2024-04-05 02:41:01,582 INFO    Thread-20 (_run_job):2184 [wandb_init.py:init():568] wandb.init called with sweep_config: {'activation': 'gelu', 'batch_norm': True, 'batch_size': 128, 'data_aug': True, 'dropout': 0.1, 'epochs': 8, 'filter_organization': 2, 'learning_rate': 0.0005, 'neurons_in_dense_layer': 64, 'number_initial_filters': 32, 'size_filters': [7, 5, 5, 3, 3]}
+config: {}
+2024-04-05 02:41:01,582 INFO    Thread-20 (_run_job):2184 [wandb_init.py:init():611] starting backend
+2024-04-05 02:41:01,582 INFO    Thread-20 (_run_job):2184 [wandb_init.py:init():615] setting up manager
+2024-04-05 02:41:01,784 ERROR   Thread-20 (_run_job):2184 [wandb_init.py:init():1209] error
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 1181, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 616, in init
+    manager._inform_init(
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\wandb_manager.py", line 200, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\service\service_sock.py", line 39, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

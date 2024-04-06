@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_6272\3305349487.py", line 4, in spawn_fn
+    train(config)
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_6272\1876901620.py", line 13, in train
+    model = Model(args.number_initial_filters ,args.neurons_in_dense_layer,image_shape,args.dropout, args.activation, args.batch_norm, args.size_filters, args.filter_organization).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_6272\2751970374.py", line 22, in __init__
+    self.dense_layers = nn.sequential(
+                        ^^^^^^^^^^^^^
+AttributeError: module 'torch.nn' has no attribute 'sequential'. Did you mean: 'Sequential'?

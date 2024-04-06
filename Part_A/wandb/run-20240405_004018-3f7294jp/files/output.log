@@ -1,0 +1,15 @@
+
+  0%|                                                                                           | 0/71 [01:17<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_12476\1739434078.py", line 4, in spawn_fn
+    train(config)
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_12476\2147705187.py", line 45, in train
+    loss.backward()
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\autograd\__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

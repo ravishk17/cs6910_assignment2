@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_18124\3305349487.py", line 4, in spawn_fn
+    train(config)
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_18124\1527000584.py", line 33, in train
+    model = Model(args.number_initial_filters ,args.neurons_in_dense_layer,image_shape,args.dropout, args.activation, args.batch_norm, args.size_filters, args.filter_organization).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_18124\1638688114.py", line 15, in __init__
+    self.conv_blocks = ConvolutionBlocks(self.activation, batch_norm, size_filters, filter_organization, number_initial_filters)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_18124\4252531572.py", line 4, in __init__
+    super(ConvolutionalBlocks, self).__init__()
+          ^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConvolutionalBlocks' is not defined. Did you mean: 'ConvolutionBlocks'?

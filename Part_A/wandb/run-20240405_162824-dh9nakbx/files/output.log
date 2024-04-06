@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_13928\3305349487.py", line 4, in spawn_fn
+    train(config)
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_13928\3991198536.py", line 45, in train
+    train_loss,total_samples,train_correct = cal_train(train_loader,device,model,criterion,optimizer)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_13928\3991198536.py", line 5, in cal_train
+    for idd,(x,y) in enumearate(tqdm(data)):
+                     ^^^^^^^^^^
+NameError: name 'enumearate' is not defined. Did you mean: 'enumerate'?

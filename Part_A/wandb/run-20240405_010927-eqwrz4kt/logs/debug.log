@@ -1,0 +1,117 @@
+2024-04-05 01:09:27,706 INFO    Thread-14 (_run_job):25084 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-05 01:09:27,706 INFO    Thread-14 (_run_job):25084 [wandb_setup.py:_flush():76] Configure stats pid to 25084
+2024-04-05 01:09:27,706 INFO    Thread-14 (_run_job):25084 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ravis\.config\wandb\settings
+2024-04-05 01:09:27,706 INFO    Thread-14 (_run_job):25084 [wandb_setup.py:_flush():76] Loading settings from M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\settings
+2024-04-05 01:09:27,706 INFO    Thread-14 (_run_job):25084 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'cs23m055', 'project': 'Assigment2_local', 'root_dir': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A', 'sweep_id': '3xxfqmvu', 'run_id': 'eqwrz4kt', 'sweep_param_path': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A\\wandb\\sweep-3xxfqmvu\\config-eqwrz4kt.yaml'}
+2024-04-05 01:09:27,715 INFO    Thread-14 (_run_job):25084 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-05 01:09:27,715 INFO    Thread-14 (_run_job):25084 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-05 01:09:27,716 INFO    Thread-14 (_run_job):25084 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-05 01:09:27,716 INFO    Thread-14 (_run_job):25084 [wandb_init.py:_log_setup():521] Logging user logs to M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240405_010927-eqwrz4kt\logs\debug.log
+2024-04-05 01:09:27,716 INFO    Thread-14 (_run_job):25084 [wandb_init.py:_log_setup():522] Logging internal logs to M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240405_010927-eqwrz4kt\logs\debug-internal.log
+2024-04-05 01:09:27,716 INFO    Thread-14 (_run_job):25084 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000011705CD2000>
+2024-04-05 01:09:27,716 INFO    Thread-14 (_run_job):25084 [wandb_init.py:init():561] calling init triggers
+2024-04-05 01:09:27,716 INFO    Thread-14 (_run_job):25084 [wandb_init.py:init():568] wandb.init called with sweep_config: {'activation': 'gelu', 'batch_norm': False, 'batch_size': 128, 'data_aug': False, 'dropout': 0.2, 'epochs': 5, 'filter_organization': 1, 'learning_rate': 0.0001, 'neurons_in_dense_layer': 64, 'number_initial_filters': 64, 'size_filters': [7, 5, 5, 3, 3]}
+config: {}
+2024-04-05 01:09:27,716 INFO    Thread-14 (_run_job):25084 [wandb_init.py:init():611] starting backend
+2024-04-05 01:09:27,717 INFO    Thread-14 (_run_job):25084 [wandb_init.py:init():615] setting up manager
+2024-04-05 01:09:27,726 INFO    Thread-14 (_run_job):25084 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-05 01:09:27,729 INFO    Thread-14 (_run_job):25084 [wandb_init.py:init():623] backend started and connected
+2024-04-05 01:09:27,744 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_config_callback():1347] config_cb None None {'activation': 'gelu', 'batch_norm': False, 'batch_size': 128, 'data_aug': False, 'dropout': 0.2, 'epochs': 5, 'filter_organization': 1, 'learning_rate': 0.0001, 'neurons_in_dense_layer': 64, 'number_initial_filters': 64, 'size_filters': [7, 5, 5, 3, 3]}
+2024-04-05 01:09:27,746 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-05 01:09:27,748 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-05 01:09:27,748 INFO    Thread-14 (_run_job):25084 [wandb_init.py:init():715] updated telemetry
+2024-04-05 01:09:27,775 INFO    Thread-14 (_run_job):25084 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-05 01:09:28,905 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-05 01:09:29,520 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_on_init():2366] got version response 
+2024-04-05 01:09:29,521 INFO    Thread-14 (_run_job):25084 [wandb_init.py:init():799] starting run threads in backend
+2024-04-05 01:09:30,989 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-05 01:09:30,989 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-05 01:09:30,989 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-05 01:09:30,989 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-05 01:09:30,991 INFO    Thread-14 (_run_job):25084 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-05 01:39:30,088 INFO    Thread-13 (_heartbeat):25084 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 1092, in _validate_conn
+    conn.connect()
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 611, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connection.py", line 210, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000011705F0D400>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000011705F0D400>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\internal\internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000011705F0D400>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+2024-04-05 01:51:34,290 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_finish():2064] finishing run cs23m055/Assigment2_local/eqwrz4kt
+2024-04-05 01:51:34,301 INFO    Thread-14 (_run_job):25084 [jupyter.py:save_history():445] not saving jupyter history
+2024-04-05 01:51:34,301 INFO    Thread-14 (_run_job):25084 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-05 01:51:34,302 INFO    Thread-14 (_run_job):25084 [wandb_init.py:_jupyter_teardown():449] cleaning up jupyter logic
+2024-04-05 01:51:34,304 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-04-05 01:51:34,306 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_restore():2287] restore
+2024-04-05 01:51:34,315 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_restore():2293] restore done
+2024-04-05 01:51:43,469 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-05 01:51:43,472 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-05 01:51:43,521 INFO    Thread-14 (_run_job):25084 [wandb_run.py:_footer_sync_info():3895] logging synced files

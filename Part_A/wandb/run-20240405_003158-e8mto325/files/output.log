@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_8952\1739434078.py", line 4, in spawn_fn
+    train(config)
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_8952\2147705187.py", line 23, in train
+    test_loader = create_data("test",test_data_path,args.data_aug, image_shape[2:], args.batch_size)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_8952\3634030067.py", line 18, in create_data
+    image_paths.append(glob.glob(curr_data_path + '/*').replace('\\','/'))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'replace'

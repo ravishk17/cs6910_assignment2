@@ -1,0 +1,21 @@
+  0%|                                                                                           | 0/71 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_8952\1739434078.py", line 4, in spawn_fn
+    train(config)
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_8952\2147705187.py", line 27, in train
+    for batch_id,(data,label) in enumerate(tqdm(train_loader)):
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\utils\data\dataloader.py", line 631, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\utils\data\dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_8952\921409916.py", line 17, in __getitem__
+    label = self.class_to_idx[label]
+            ~~~~~~~~~~~~~~~~~^^^^^^^
+KeyError: 'inaturalist_12K'

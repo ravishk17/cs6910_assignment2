@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_9380\3305349487.py", line 4, in spawn_fn
+    train(config)
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_9380\2846393833.py", line 42, in train
+    test_loader = create_data("test",test_data_path,args.data_aug, image_shape[2:], args.batch_size)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Temp\ipykernel_9380\2089926447.py", line 35, in create_data
+    idx_to_class[idx]=cls
+    ^^^^^^^^^^^^
+NameError: name 'idx_to_class' is not defined
