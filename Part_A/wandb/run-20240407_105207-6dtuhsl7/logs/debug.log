@@ -1,0 +1,28 @@
+2024-04-07 10:52:07,405 INFO    Thread-12 (_run_job):21648 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-07 10:52:07,405 INFO    Thread-12 (_run_job):21648 [wandb_setup.py:_flush():76] Configure stats pid to 21648
+2024-04-07 10:52:07,405 INFO    Thread-12 (_run_job):21648 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ravis\.config\wandb\settings
+2024-04-07 10:52:07,405 INFO    Thread-12 (_run_job):21648 [wandb_setup.py:_flush():76] Loading settings from M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\settings
+2024-04-07 10:52:07,405 INFO    Thread-12 (_run_job):21648 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'cs23m055', 'project': 'Assigment2_kaggle', 'root_dir': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A', 'sweep_id': 'y1nm7559', 'run_id': '6dtuhsl7', 'sweep_param_path': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A\\wandb\\sweep-y1nm7559\\config-6dtuhsl7.yaml'}
+2024-04-07 10:52:07,406 INFO    Thread-12 (_run_job):21648 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-07 10:52:07,406 INFO    Thread-12 (_run_job):21648 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'Part_A\\Q2.py', 'program_abspath': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A\\Q2.py', 'program': 'M:\\Practice\\Semester-2\\Deep Learning\\Assignments\\Assignement 2\\Part_A\\Q2.py'}
+2024-04-07 10:52:07,406 INFO    Thread-12 (_run_job):21648 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-07 10:52:07,406 INFO    Thread-12 (_run_job):21648 [wandb_init.py:_log_setup():521] Logging user logs to M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240407_105207-6dtuhsl7\logs\debug.log
+2024-04-07 10:52:07,406 INFO    Thread-12 (_run_job):21648 [wandb_init.py:_log_setup():522] Logging internal logs to M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\wandb\run-20240407_105207-6dtuhsl7\logs\debug-internal.log
+2024-04-07 10:52:07,406 INFO    Thread-12 (_run_job):21648 [wandb_init.py:init():561] calling init triggers
+2024-04-07 10:52:07,406 INFO    Thread-12 (_run_job):21648 [wandb_init.py:init():568] wandb.init called with sweep_config: {'activation': 'relu', 'batch_norm': False, 'batch_size': 128, 'data_aug': True, 'dropout': 0.1, 'epochs': 20, 'filter_organization': 0.5, 'learning_rate': 0.0003, 'neurons_in_dense_layer': 256, 'number_initial_filters': 128, 'size_filters': [11, 9, 7, 5, 3]}
+config: {}
+2024-04-07 10:52:07,407 INFO    Thread-12 (_run_job):21648 [wandb_init.py:init():611] starting backend
+2024-04-07 10:52:07,407 INFO    Thread-12 (_run_job):21648 [wandb_init.py:init():615] setting up manager
+2024-04-07 10:52:07,409 INFO    Thread-12 (_run_job):21648 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-07 10:52:07,411 INFO    Thread-12 (_run_job):21648 [wandb_init.py:init():623] backend started and connected
+2024-04-07 10:52:07,416 INFO    Thread-12 (_run_job):21648 [wandb_run.py:_config_callback():1347] config_cb None None {'activation': 'relu', 'batch_norm': False, 'batch_size': 128, 'data_aug': True, 'dropout': 0.1, 'epochs': 20, 'filter_organization': 0.5, 'learning_rate': 0.0003, 'neurons_in_dense_layer': 256, 'number_initial_filters': 128, 'size_filters': [11, 9, 7, 5, 3]}
+2024-04-07 10:52:07,417 INFO    Thread-12 (_run_job):21648 [wandb_init.py:init():715] updated telemetry
+2024-04-07 10:52:07,440 INFO    Thread-12 (_run_job):21648 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-07 10:52:08,537 INFO    Thread-12 (_run_job):21648 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-07 10:52:08,948 INFO    Thread-12 (_run_job):21648 [wandb_run.py:_on_init():2366] got version response 
+2024-04-07 10:52:08,948 INFO    Thread-12 (_run_job):21648 [wandb_init.py:init():799] starting run threads in backend
+2024-04-07 10:52:10,716 INFO    Thread-12 (_run_job):21648 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-07 10:52:10,716 INFO    Thread-12 (_run_job):21648 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-07 10:52:10,716 INFO    Thread-12 (_run_job):21648 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-07 10:52:10,716 INFO    Thread-12 (_run_job):21648 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-07 10:52:10,717 INFO    Thread-12 (_run_job):21648 [wandb_init.py:init():842] run started, returning control to user process

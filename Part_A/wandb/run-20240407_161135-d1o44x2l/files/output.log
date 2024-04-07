@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\train.py", line 425, in <module>
+    train(args,wandb)
+  File "M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\train.py", line 338, in train
+    model = Model(args.number_initial_filters ,args.neurons_in_dense_layer,image_shape,args.dropout, args.activation, args.batch_norm, args.size_filters, args.filter_organization).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\train.py", line 250, in __init__
+    self.conv_blocks = ConvolutionBlocks(self.activation, batch_norm, size_filters, filter_organization, number_initial_filters)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\train.py", line 179, in __init__
+    nn.Conv2d(in_channels=3,out_channels=self.num_filters[0],kernel_size=size_filters[0],stride=(1, 1),padding=(1, 1),bias=False),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\conv.py", line 447, in __init__
+    super().__init__(
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\conv.py", line 134, in __init__
+    self.weight = Parameter(torch.empty(
+                            ^^^^^^^^^^^^
+TypeError: empty(): argument 'size' failed to unpack the object at pos 3 with error "type must be tuple of ints,but got str"

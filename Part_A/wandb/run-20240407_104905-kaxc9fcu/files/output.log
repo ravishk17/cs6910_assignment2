@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\Q2.py", line 426, in spawn_fn
+    train(config)
+  File "M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\Q2.py", line 347, in train
+    test_loader = create_data("test",test_data_path,args.data_aug, image_shape[2:], args.batch_size)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "M:\Practice\Semester-2\Deep Learning\Assignments\Assignement 2\Part_A\Q2.py", line 157, in create_data
+    test_loader = DataLoader(test_dataset, batch_size=b_size, shuffle=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\utils\data\dataloader.py", line 350, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ravis\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\utils\data\sampler.py", line 143, in __init__
+    raise ValueError(f"num_samples should be a positive integer value, but got num_samples={self.num_samples}")
+ValueError: num_samples should be a positive integer value, but got num_samples=0
