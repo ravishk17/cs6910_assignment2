@@ -1,6 +1,8 @@
 # cs6910_assignment2
 Instructions to run the program for partA:
+
 1)Unzip the iNaturalist dataset in the location where trainA.py is located. That is the trainA.py and 'inaturalist_12K' folder is at the same level. The inner structure of the dataset need not be modified or renamed, otherwise path mentioned inside the code will be wrong.
+
 2)Below are the command line arguments which can be given at runtime
 | Name | Default Value | Description |
 |------|---------------|-------------|
