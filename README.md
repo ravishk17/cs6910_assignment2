@@ -38,7 +38,7 @@
 
 To run the partA: ``` python trainA.py -e 5 -sf 5 5 5 5 5``` , ```python trainA.py```, and so on try with different commandline arguments
 
-**Instructions to execute partB: **
+**Instructions to execute partB:**
 
 1)Unzip the iNaturalist dataset in the location where trainB.py is located. That is the trainB.py and 'inaturalist_12K' folder is at the same level. The inner structure of the dataset need not be modified or renamed, otherwise path mentioned inside the code will be wrong.
 
