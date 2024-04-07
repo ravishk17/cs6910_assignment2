@@ -1,7 +1,17 @@
 # cs6910_assignment2
 |Libraries required|
 |------------------|
-| cv2 | glob | random |torch |torchvision | numpy |matplotlib.pyplot | pandas.core.common | tqdm | PIL | wandb |
+| cv2 |
+| glob |
+| random |
+| torch |
+| torchvision |
+| numpy |
+| matplotlib.pyplot |
+| pandas.core.common |
+| tqdm |
+| PIL |
+| wandb |
 
 Instructions to run the program for partA:
 
