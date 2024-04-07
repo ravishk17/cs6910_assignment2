@@ -17,7 +17,9 @@
 
 1)Unzip the iNaturalist dataset in the location where trainA.py is located. That is the trainA.py and 'inaturalist_12K' folder is at the same level. The inner structure of the dataset need not be modified or renamed, otherwise path mentioned inside the code will be wrong.
 
-2)Below are the command line arguments which can be given at runtime
+2)Inside the code, there are some wandb login using my api key, I request you to replace my api key with your api key at every place where ```wandb.login(key = "67fcf10073b0d1bfeee44a1e4bd6f3eb5b674f8e")``` is written inside the code.
+
+3)Below are the command line arguments which can be given at runtime
 | Name | Default Value | Description |
 |------|---------------|-------------|
 | -wp, --wandb_project | assignement2_kaggle | Project name used to track experiments in Weights & Biases dashboard |
