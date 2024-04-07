@@ -13,7 +13,7 @@
 | PIL |
 | wandb |
 
-Instructions to run the program for partA:
+**Instructions to run the program for partA:**
 
 1)Unzip the iNaturalist dataset in the location where trainA.py is located. That is the trainA.py and 'inaturalist_12K' folder is at the same level. The inner structure of the dataset need not be modified or renamed, otherwise path mentioned inside the code will be wrong.
 
@@ -33,3 +33,20 @@ Instructions to run the program for partA:
 | -lr, --learning_rate | 0.00001 | learning rate used to optimize the model |
 | -d, --dropout | 0.2 | Dropout to take care of overfitting |
 | -sf, --size_filters| [7,5,5,3,3] | Give exactly 5 space separated integers after -sf to use this command|
+
+To run the partA: ``` python trainA.py -e 5 -sf 5 5 5 5 5``` , ```python trainA.py```, and so on try with different commandline arguments
+
+**Instructions to execute partB: **
+
+1)Unzip the iNaturalist dataset in the location where trainB.py is located. That is the trainB.py and 'inaturalist_12K' folder is at the same level. The inner structure of the dataset need not be modified or renamed, otherwise path mentioned inside the code will be wrong.
+
+2)Below are the command line arguments which can be given at runtime
+
+| Name | Default Value | Description |
+|------|---------------|-------------|
+| -e, --epochs | 5 | number of epochs |
+| -s', --strategy | 1 | choices = [0:freeze_all, 1:fine_tuning_all, 2:layer_wise_fine_tuning] |
+
+To run the the partB: ```python trainB.py -e 5 -s 1```
+
+
